@@ -17,7 +17,7 @@ public class EnemySpawner : MonoBehaviour {
     private int lane_number;
     private float y_position;
     private Vector2 new_vector;
-    private GameObject enemy;
+    GameObject enemy;
 
     // Use this for initialization
     void Start () {
